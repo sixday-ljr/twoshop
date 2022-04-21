@@ -1,0 +1,203 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/home/home",
+			"style": {
+				"enablePullDownRefresh": true
+
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false
+				}
+			}
+
+		}, {
+			"path": "pages/disconver/disconver",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/issue/issue",
+			"style": {
+
+			}
+		}, {
+			"path": "pages/msg/msg",
+			"style": {}
+		}, {
+			"path": "pages/my/my",
+			"style": {}
+		},
+
+
+		{
+			"path": "pages/home/citySelect/citySelect",
+			"style": {
+				"navigationBarTitleText": "地区"
+			}
+		},
+		{
+			"path": "pages/home/home_grid/home_grid",
+			"style": {
+				"navigationBarTitleText": "详细"
+			}
+		},
+		{
+			"path": "pages/home/home_classify/home_classify",
+			"style": {}
+		}, {
+			"path": "pages/home/home_detail/home_detail",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+			}
+		}, {
+			"path": "pages/home/home_grid_detail/home_grid_detail",
+			"style": {}
+		},
+		{
+			"path": "pages/home/confirm_order/confirm_order",
+			"style": {
+				"navigationBarTitleText": "立即购买"
+			}
+		},
+		// {
+		// 	"path": "pages/home/citySelect/citySelect",
+		// 	"style": {
+		// 		"navigationBarTitleText": "地址"
+		// 	}
+		// }, 
+		{
+			"path": "pages/home/order_detail/order_detail",
+			"style": {
+				"navigationBarTitleText": "买卖进度"
+			}
+		}, {
+			"path": "pages/disconver/discover_desc/discover_desc",
+			"style": {}
+		}, {
+			"path": "pages/disconver/discover_desc_more/discover_desc_more",
+			"style": {}
+		}, {
+			"path": "pages/msg/msg_chat/msg_chat",
+			"style": {}
+		}, {
+			"path": "pages/msg/msg_inform/msg_inform",
+			"style": {}
+		}, {
+			"path": "pages/msg/msg_logistics_all/msg_logistics_all",
+			"style": {}
+		}, {
+			"path": "pages/msg/message_logistics/message_logistics",
+			"style": {}
+		}, {
+			"path": "pages/my/my_issue/my_issue",
+			"style": {
+				"navigationBarTitleText": "我的发布"
+			}
+		}, {
+			"path": "pages/issue/issue_edit/issue_edit",
+			"style": {}
+		}, {
+			"path": "pages/my/my_sale/my_sale",
+			"style": {
+				"navigationBarTitleText": "我的卖出"
+			}
+		}, {
+			"path": "pages/my/my_buy/my_buy",
+			"style": {
+				"navigationBarTitleText": "我买到的"
+			}
+		}, {
+			"path": "pages/my/my_collect/my_collect",
+			"style": {}
+		},
+		{
+			"path": "pages/my/edit-address",
+			"style": {}
+		},
+		{
+			"path": "pages/my/add-address",
+			"style": {}
+		}, {
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/setting/personal-data",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/issue/issue",
+			"style": {
+				"navigationBarTitleText": "我的发布"
+			}
+		},
+		{
+			"path": "pages/setting/address",
+			"style": {
+				"navigationBarTitleText": "我的地址",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/login_code",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false
+				}
+			}
+		} 
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "二手商城",
+		"navigationBarBackgroundColor": "#F8C301",
+		"backgroundColor": "#ffffff",
+		"enablePullDownRefresh": true,
+		"app-plus": {
+			"softinputMode": "adjustResize"
+		}
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#F8C301",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabbar/shop.png",
+				"selectedIconPath": "static/tabbar/shop1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/issue/issue",
+				"iconPath": "static/tabbar/hui.png",
+				"selectedIconPath": "static/tabbar/huang.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my1.png",
+				"text": "我的"
+			}
+		]
+
+	}
+}
